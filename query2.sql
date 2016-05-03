@@ -1,0 +1,1 @@
+SELECT FirstName,LastName,Age,Email,Country_Id,Phone,Date FROM Student;

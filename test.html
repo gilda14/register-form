@@ -1,0 +1,66 @@
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script>
+      now.getServerInfo(function (data) {
+          console.log(data.version);
+      });
+</script>
+
+</head>
+<body>
+    <form>
+
+        <div class="form-group">
+ 		 <label for="Fn">FirstName:</label>
+ 		 <input type="text" class="form-control" id="Fn">
+        </div>
+
+        <div class="form-group">
+ 		 <label for="Ln">LastName:</label>
+ 		 <input type="text" class="form-control" id="Ln">
+        </div>
+
+        <div class="form-group">
+ 		 <label for="Age">Age:</label>
+ 		 <input type="Number" class="form-control" id="Age">
+        </div>
+
+        <div class="form-group">
+                 <label for="inputEmail">Email</label>
+       		 <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+
+	<div class="form-group">                                        
+  	  <div class="dropdown">
+   		 <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Country
+    		<span class="caret"></span></button>
+    		<ul class="dropdown-menu">
+     		 <li><a href="#">Australia</a></li>
+     		 <li><a href="#">Canada</a></li>
+     		 <li><a href="#">United Kingdom</a></li>
+    	 	</ul>
+  	  </div>
+       </div>
+
+        <div class="form-group">
+ 		 <label for="Tel">Phone:</label>
+ 		 <input type="Number" class="form-control" id="Tel">
+        </div>
+
+        <div class="form-group">
+ 		 <label for="Date">Date:</label>
+ 		 <input type="Date" class="form-control" id="Date">
+        </div>
+     
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+
+
+    </form>
+
+</body>
